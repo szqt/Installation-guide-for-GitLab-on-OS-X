@@ -48,6 +48,11 @@ sudo ln -s /usr/bin/python /usr/bin/python2
 
 > On OS X 10.11 it won't work. You need to disable [SIP](https://en.wikipedia.org/wiki/System_Integrity_Protection).
 
+>or
+>```
+sudo mkdir -p /usr/local/bin
+sudo ln -s /usr/bin/python2.7 /usr/local/bin/python2
+```
 Some more dependices
 
 ```
